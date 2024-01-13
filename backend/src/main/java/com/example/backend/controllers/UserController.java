@@ -40,4 +40,7 @@ public class UserController {
     public boolean deleteUser(@RequestBody UserDTO userDTO) {
         return userServices.deleteUser(userDTO);
     }
+
+    
 }
+
